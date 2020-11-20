@@ -24,5 +24,7 @@ jobs:
       run: |
           chmod +x ./scripts/InstallChrome.sh
                       ./scripts/InstallChrome.sh
+    - name: Update chromedriver permissions
+      run: chmod +x ./src/main/resources/driver/chromedriver.exe
     - name: Build with Maven
       run: mvn test
