@@ -13,8 +13,7 @@ import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Condition.enabled;
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 import static io.restassured.RestAssured.given;
 
 public class SendMessage {
@@ -33,7 +32,7 @@ public class SendMessage {
         Selenide.sleep(20000);
 //        String quote = this.getQuote();
 //        this.sendText("పొట్టి", "\"" + quote + "\" \n Good Morning");
-        this.sendText("పొట్టి", "Good Morning");
+        this.sendText("పొట్టి", "Chalo, lets watch a movie!");
     }
 
     @Test(enabled = false)
@@ -59,7 +58,7 @@ public class SendMessage {
     }
 
     private SelenideElement getTextBox() {
-        return $(By.xpath("//div[@class='_3FRCZ copyable-text selectable-text' and @data-tab=1]"));
+        return $(By.xpath("//div[contains(text(), 'Type a message')]/following-sibling::div"));
     }
 
     private SelenideElement getSendButton() {
