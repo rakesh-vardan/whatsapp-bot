@@ -1,9 +1,3 @@
-2020/09/13-13:22:38.643 5034 Log #3: 3 ops saved to Table #11 OK
-2020/09/13-13:22:38.650 5034 Archiving C:\Users\Rakesh_Budugu\.jenkins\workspace\whats-app-bot\src\main\resources\data\Default\File System\Origins/000003.log: OK
-2020/09/13-13:22:38.651 5034 Log #10: 0 ops saved to Table #12 OK
-2020/09/13-13:22:38.655 5034 Archiving C:\Users\Rakesh_Budugu\.jenkins\workspace\whats-app-bot\src\main\resources\data\Default\File System\Origins/000010.log: OK
-2020/09/13-13:22:38.656 5034 Table #4: 3 entries OK
-2020/09/13-13:22:38.656 5034 Table #7: 3 entries OK
-2020/09/13-13:22:38.657 5034 Table #11: 3 entries OK
-2020/09/13-13:22:38.665 5034 Archiving C:\Users\Rakesh_Budugu\.jenkins\workspace\whats-app-bot\src\main\resources\data\Default\File System\Origins/MANIFEST-000001: OK
-2020/09/13-13:22:38.691 5034 **** Repaired leveldb C:\Users\Rakesh_Budugu\.jenkins\workspace\whats-app-bot\src\main\resources\data\Default\File System\Origins; recovered 3 files; 543 bytes. Some data may have been lost. ****
+2020/11/20-22:12:47.983 6448 Reusing MANIFEST C:\rakesh-vardan\stash-projects\whatsapp-bot\src\main\resources\data\Default\File System\Origins/MANIFEST-000001
+2020/11/20-22:12:47.985 6448 Recovering log #14
+2020/11/20-22:12:47.985 6448 Reusing old log C:\rakesh-vardan\stash-projects\whatsapp-bot\src\main\resources\data\Default\File System\Origins/000014.log 
